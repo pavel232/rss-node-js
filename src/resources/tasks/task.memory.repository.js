@@ -1,27 +1,29 @@
 const db = require('../db/in-memory-db');
-const tasksDb = db.dataBase.tasks;
+const dataBase = db.dataBase;
 const Task = require('./task.model');
 
 const getAll = async boardId => {
-  return await tasksDb.filter(task => task.boardId === boardId);
+  return await dataBase.tasks.filter(task => task.boardId === boardId);
 };
 
 const getTask = async (boardId, id) => {
-  return await tasksDb.find(task => task.boardId === boardId && task.id === id);
+  return await dataBase.tasks.find(
+    task => task.boardId === boardId && task.id === id
+  );
 };
 
 const postTask = async (boardId, task) => {
   task.boardId = boardId;
   const newTask = new Task(task);
-  tasksDb.push(newTask);
+  dataBase.tasks.push(newTask);
   return newTask;
 };
 
 const putTask = async (boardId, id, task) => {
   const index = db.getIndex('tasks', id, boardId);
   if (index !== -1) {
-    tasksDb[index] = { id, ...task };
-    return tasksDb[index];
+    dataBase.tasks[index] = { id, ...task };
+    return dataBase.tasks[index];
   }
   return false;
 };
@@ -29,23 +31,18 @@ const putTask = async (boardId, id, task) => {
 const deleteTask = async (boardId, id) => {
   const index = db.getIndex('tasks', id, boardId);
   if (index !== -1) {
-    tasksDb.splice(index, 1);
+    dataBase.tasks.splice(index, 1);
     return true;
   }
   return false;
 };
 
 const deleteAllTasksWithBoard = async boardId => {
-  tasksDb.forEach((e, i) => {
-    if (e.boardId === boardId) {
-      // tasksDb.splice(i, 1);
-      tasksDb[i] = {};
-    }
-  });
+  dataBase.tasks = dataBase.tasks.filter(e => e.boardId !== boardId);
 };
 
 const deleteAssignee = async userId => {
-  tasksDb.forEach(e => {
+  dataBase.tasks.forEach(e => {
     if (e.userId === userId) {
       e.userId = null;
     }
