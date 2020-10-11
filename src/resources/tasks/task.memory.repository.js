@@ -19,11 +19,9 @@ const postTask = async (boardId, task) => {
 
 const putTask = async (boardId, id, task) => {
   const index = db.getIndex('tasks', id, boardId);
-
   if (index !== -1) {
-    const newTask = new Task(task);
-    tasksDb[index] = newTask;
-    return newTask;
+    tasksDb[index] = { id, ...task };
+    return tasksDb[index];
   }
   return false;
 };
