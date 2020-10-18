@@ -1,4 +1,3 @@
-# !!!Для проверки задания переходим в ветку task-2!!!
 # RS School REST service
 
 ## Prerequisites
