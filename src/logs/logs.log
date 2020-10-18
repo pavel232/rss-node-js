@@ -1,0 +1,153 @@
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /boards/967b539a-f3ba-4d89-a80d-d28bf382b7ae/tasks :: PARAMETERS: {} :: BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"TEST_USER","login":"test_user"}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/967b539a-f3ba-4d89-a80d-d28bf382b7ae/tasks :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /users/0f30d5a0-4bb4-4f99-9e02-b2b2b3b6ca67 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: DELETE :: URL: /users/0f30d5a0-4bb4-4f99-9e02-b2b2b3b6ca67 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/967b539a-f3ba-4d89-a80d-d28bf382b7ae :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/967b539a-f3ba-4d89-a80d-d28bf382b7ae/tasks :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"TEST_USER","login":"test_user"}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/967b539a-f3ba-4d89-a80d-d28bf382b7ae/tasks/39382a40-fac1-47be-a7ef-042e876819f6 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: DELETE :: URL: /users/888a4b31-300f-4f36-84cd-eb22cf0f113b :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: DELETE :: URL: /boards/55745db3-d5eb-47d3-9a18-cb77387dee59 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /boards/967b539a-f3ba-4d89-a80d-d28bf382b7ae/tasks :: PARAMETERS: {} :: BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"TEST_USER","login":"test_user"}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: DELETE :: URL: /boards/967b539a-f3ba-4d89-a80d-d28bf382b7ae/tasks/b13e2fe6-aa2f-4bb6-a3f6-a23b3f9d20e1 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: PUT :: URL: /users/37386d1c-23dd-49d0-94d9-88c87233db1d :: PARAMETERS: {} :: BODY: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"37386d1c-23dd-49d0-94d9-88c87233db1d"}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: PUT :: URL: /boards/2420f584-5062-4dff-9e5f-5b13a3525b56 :: PARAMETERS: {} :: BODY: {"id":"2420f584-5062-4dff-9e5f-5b13a3525b56","title":"Autotest updated board","columns":[{"id":"0ad177b9-a072-4785-8451-88868d316f9a","title":"Backlog","order":1},{"id":"a19edcf1-3008-452a-9add-0d6939876104","title":"Sprint","order":2}]}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /boards/967b539a-f3ba-4d89-a80d-d28bf382b7ae/tasks :: PARAMETERS: {} :: BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /users/37386d1c-23dd-49d0-94d9-88c87233db1d :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/2420f584-5062-4dff-9e5f-5b13a3525b56 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: PUT :: URL: /boards/967b539a-f3ba-4d89-a80d-d28bf382b7ae/tasks/e2ab271e-34a4-4758-9255-9413a0ec00bd :: PARAMETERS: {} :: BODY: {"id":"e2ab271e-34a4-4758-9255-9413a0ec00bd","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"967b539a-f3ba-4d89-a80d-d28bf382b7ae","columnId":null}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: DELETE :: URL: /users/37386d1c-23dd-49d0-94d9-88c87233db1d :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: DELETE :: URL: /boards/2420f584-5062-4dff-9e5f-5b13a3525b56 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/967b539a-f3ba-4d89-a80d-d28bf382b7ae/tasks/e2ab271e-34a4-4758-9255-9413a0ec00bd :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"TEST_USER","login":"test_user"}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/967b539a-f3ba-4d89-a80d-d28bf382b7ae/tasks/39382a40-fac1-47be-a7ef-042e876819f6 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: DELETE :: URL: /users/6d5354c3-0672-46c9-bea3-607e259b3648 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: DELETE :: URL: /boards/da3dae48-8d13-494b-8a83-06a161743f0f :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: DELETE :: URL: /boards/967b539a-f3ba-4d89-a80d-d28bf382b7ae/tasks/39382a40-fac1-47be-a7ef-042e876819f6 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"TEST_USER","login":"test_user"}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/da3dae48-8d13-494b-8a83-06a161743f0f :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/967b539a-f3ba-4d89-a80d-d28bf382b7ae/tasks/39382a40-fac1-47be-a7ef-042e876819f6 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: DELETE :: URL: /boards/967b539a-f3ba-4d89-a80d-d28bf382b7ae :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /boards/7d39088c-2828-4e5a-b52a-bf2f489ec49f/tasks :: PARAMETERS: {} :: BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"741125b2-6793-4266-8b80-6651e626029a","boardId":"7d39088c-2828-4e5a-b52a-bf2f489ec49f"}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /boards/7d39088c-2828-4e5a-b52a-bf2f489ec49f/tasks :: PARAMETERS: {} :: BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"741125b2-6793-4266-8b80-6651e626029a","boardId":"7d39088c-2828-4e5a-b52a-bf2f489ec49f"}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /boards/71dc2733-9a10-4bab-bc43-1e9c1ea91684/tasks :: PARAMETERS: {} :: BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"71dc2733-9a10-4bab-bc43-1e9c1ea91684","userId":null,"columnId":null}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /boards/71dc2733-9a10-4bab-bc43-1e9c1ea91684/tasks :: PARAMETERS: {} :: BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"71dc2733-9a10-4bab-bc43-1e9c1ea91684","userId":null,"columnId":null}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /boards/71dc2733-9a10-4bab-bc43-1e9c1ea91684/tasks :: PARAMETERS: {} :: BODY: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"71dc2733-9a10-4bab-bc43-1e9c1ea91684","userId":null,"columnId":null}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /boards/71dc2733-9a10-4bab-bc43-1e9c1ea91684/tasks :: PARAMETERS: {} :: BODY: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"71dc2733-9a10-4bab-bc43-1e9c1ea91684","userId":null,"columnId":null}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: POST :: URL: /boards/71dc2733-9a10-4bab-bc43-1e9c1ea91684/tasks :: PARAMETERS: {} :: BODY: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"71dc2733-9a10-4bab-bc43-1e9c1ea91684","userId":null,"columnId":null}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: DELETE :: URL: /users/741125b2-6793-4266-8b80-6651e626029a :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/71dc2733-9a10-4bab-bc43-1e9c1ea91684/tasks/05821eb0-616b-4507-b1f5-b3d5f0f77e55 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/71dc2733-9a10-4bab-bc43-1e9c1ea91684/tasks/240dabdb-b801-4e7d-ad03-29015c24b692 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/71dc2733-9a10-4bab-bc43-1e9c1ea91684/tasks/62eb0256-f377-4dc2-a129-2d88947624ef :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/71dc2733-9a10-4bab-bc43-1e9c1ea91684/tasks/77d564f6-1c53-4159-b5fe-1221c6f55db8 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/71dc2733-9a10-4bab-bc43-1e9c1ea91684/tasks/b1c4c3e3-68f6-4309-a6f3-d0d54e6fa112 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/7d39088c-2828-4e5a-b52a-bf2f489ec49f/tasks/fdf644cf-5fbf-4e4b-bb08-a88806570ff1 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: DELETE :: URL: /boards/71dc2733-9a10-4bab-bc43-1e9c1ea91684 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/7d39088c-2828-4e5a-b52a-bf2f489ec49f/tasks/ca74d43c-fc99-4b33-9001-d63026baabb8 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/71dc2733-9a10-4bab-bc43-1e9c1ea91684/tasks/240dabdb-b801-4e7d-ad03-29015c24b692 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/71dc2733-9a10-4bab-bc43-1e9c1ea91684/tasks/62eb0256-f377-4dc2-a129-2d88947624ef :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/71dc2733-9a10-4bab-bc43-1e9c1ea91684/tasks/77d564f6-1c53-4159-b5fe-1221c6f55db8 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/71dc2733-9a10-4bab-bc43-1e9c1ea91684/tasks/05821eb0-616b-4507-b1f5-b3d5f0f77e55 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: GET :: URL: /boards/71dc2733-9a10-4bab-bc43-1e9c1ea91684/tasks/b1c4c3e3-68f6-4309-a6f3-d0d54e6fa112 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: DELETE :: URL: /boards/7d39088c-2828-4e5a-b52a-bf2f489ec49f/tasks/fdf644cf-5fbf-4e4b-bb08-a88806570ff1 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: DELETE :: URL: /boards/7d39088c-2828-4e5a-b52a-bf2f489ec49f/tasks/ca74d43c-fc99-4b33-9001-d63026baabb8 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: DELETE :: URL: /boards/eea8b7f0-3eae-407c-961e-f5db0614fd1a :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:01:49 +03:00] :: METHOD: DELETE :: URL: /boards/7d39088c-2828-4e5a-b52a-bf2f489ec49f :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:06:14 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:06:15 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:06:29 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+error [2020-10-18 19:06:29 +03:00] :: o
+info [2020-10-18 19:06:30 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+error [2020-10-18 19:06:30 +03:00] :: o
+info [2020-10-18 19:06:31 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+error [2020-10-18 19:06:31 +03:00] :: o
+info [2020-10-18 19:06:31 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+error [2020-10-18 19:06:31 +03:00] :: o
+info [2020-10-18 19:06:31 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+error [2020-10-18 19:06:31 +03:00] :: o
+info [2020-10-18 19:06:31 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+error [2020-10-18 19:06:31 +03:00] :: o
+info [2020-10-18 19:07:08 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+error [2020-10-18 19:07:08 +03:00] :: o
+error [2020-10-18 19:07:54 +03:00] :: uncaughtException: Oops!
+error [2020-10-18 19:08:20 +03:00] :: unhandledRejection: Oops!
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /boards/b583907a-bd35-48f5-b32e-8727da4d22c7/tasks :: PARAMETERS: {} :: BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/b583907a-bd35-48f5-b32e-8727da4d22c7/tasks :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/b583907a-bd35-48f5-b32e-8727da4d22c7/tasks :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/b583907a-bd35-48f5-b32e-8727da4d22c7/tasks/1e350452-ffe0-46a1-8d60-846dd9131017 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"TEST_USER","login":"test_user"}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/b583907a-bd35-48f5-b32e-8727da4d22c7 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /boards/b583907a-bd35-48f5-b32e-8727da4d22c7/tasks :: PARAMETERS: {} :: BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /users/57ce7130-60c4-42e8-ac80-1205e3397148 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: DELETE :: URL: /boards/b583907a-bd35-48f5-b32e-8727da4d22c7/tasks/efc828a8-6c42-4aef-b6b2-a5e3045b2300 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: DELETE :: URL: /users/57ce7130-60c4-42e8-ac80-1205e3397148 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: DELETE :: URL: /boards/ded5b71e-4ea5-480f-89f6-8395b6c90534 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /boards/b583907a-bd35-48f5-b32e-8727da4d22c7/tasks :: PARAMETERS: {} :: BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"TEST_USER","login":"test_user"}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: PUT :: URL: /boards/b583907a-bd35-48f5-b32e-8727da4d22c7/tasks/6f91c3ba-48e2-48ae-97ab-69d2a3f31b14 :: PARAMETERS: {} :: BODY: {"id":"6f91c3ba-48e2-48ae-97ab-69d2a3f31b14","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"b583907a-bd35-48f5-b32e-8727da4d22c7","columnId":null}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: PUT :: URL: /boards/fccd9a79-6907-4195-ab7c-5c71641f9637 :: PARAMETERS: {} :: BODY: {"id":"fccd9a79-6907-4195-ab7c-5c71641f9637","title":"Autotest updated board","columns":[{"id":"a9c42573-3605-49e6-9586-8e40b2e33a8a","title":"Backlog","order":1},{"id":"eb619028-32a8-4fff-bc2d-baa5c4cd693f","title":"Sprint","order":2}]}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: DELETE :: URL: /users/83ad44e3-4e0e-49da-be8d-ff7a8ff7490d :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/b583907a-bd35-48f5-b32e-8727da4d22c7/tasks/6f91c3ba-48e2-48ae-97ab-69d2a3f31b14 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/fccd9a79-6907-4195-ab7c-5c71641f9637 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"TEST_USER","login":"test_user"}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/b583907a-bd35-48f5-b32e-8727da4d22c7/tasks/1e350452-ffe0-46a1-8d60-846dd9131017 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: DELETE :: URL: /boards/fccd9a79-6907-4195-ab7c-5c71641f9637 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: PUT :: URL: /users/d6bbd2ff-35a6-40f8-b1f6-2f64ec936e75 :: PARAMETERS: {} :: BODY: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"d6bbd2ff-35a6-40f8-b1f6-2f64ec936e75"}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: DELETE :: URL: /boards/b583907a-bd35-48f5-b32e-8727da4d22c7/tasks/1e350452-ffe0-46a1-8d60-846dd9131017 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /users/d6bbd2ff-35a6-40f8-b1f6-2f64ec936e75 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/b583907a-bd35-48f5-b32e-8727da4d22c7/tasks/1e350452-ffe0-46a1-8d60-846dd9131017 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: DELETE :: URL: /boards/cd2ac252-2024-43c5-bd8c-ae2c11c2d2e3 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: DELETE :: URL: /users/d6bbd2ff-35a6-40f8-b1f6-2f64ec936e75 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: DELETE :: URL: /boards/b583907a-bd35-48f5-b32e-8727da4d22c7 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/cd2ac252-2024-43c5-bd8c-ae2c11c2d2e3 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"TEST_USER","login":"test_user"}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: DELETE :: URL: /users/3379210f-7457-4e1e-a593-7174469563b2 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /boards/045dc626-485e-4a39-b23a-c2f6fb9d3dc7/tasks :: PARAMETERS: {} :: BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"045dc626-485e-4a39-b23a-c2f6fb9d3dc7","userId":null,"columnId":null}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /boards/045dc626-485e-4a39-b23a-c2f6fb9d3dc7/tasks :: PARAMETERS: {} :: BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"045dc626-485e-4a39-b23a-c2f6fb9d3dc7","userId":null,"columnId":null}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /boards/045dc626-485e-4a39-b23a-c2f6fb9d3dc7/tasks :: PARAMETERS: {} :: BODY: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"045dc626-485e-4a39-b23a-c2f6fb9d3dc7","userId":null,"columnId":null}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /boards/045dc626-485e-4a39-b23a-c2f6fb9d3dc7/tasks :: PARAMETERS: {} :: BODY: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"045dc626-485e-4a39-b23a-c2f6fb9d3dc7","userId":null,"columnId":null}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /boards/045dc626-485e-4a39-b23a-c2f6fb9d3dc7/tasks :: PARAMETERS: {} :: BODY: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"045dc626-485e-4a39-b23a-c2f6fb9d3dc7","userId":null,"columnId":null}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"TEST_USER","login":"test_user"}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/045dc626-485e-4a39-b23a-c2f6fb9d3dc7/tasks/de0b82e9-ecde-4679-aac6-91652aef5abe :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/045dc626-485e-4a39-b23a-c2f6fb9d3dc7/tasks/871e9d3b-5b5f-428a-822e-e577c14f0699 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/045dc626-485e-4a39-b23a-c2f6fb9d3dc7/tasks/0f7187c7-935f-46f7-a65a-1ac691c197ec :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/045dc626-485e-4a39-b23a-c2f6fb9d3dc7/tasks/7fe9d160-8fc9-490c-8449-9b37c081fc26 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/045dc626-485e-4a39-b23a-c2f6fb9d3dc7/tasks/3fcb5b6a-251d-47be-ae5c-78b59e56561f :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: DELETE :: URL: /boards/045dc626-485e-4a39-b23a-c2f6fb9d3dc7 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /boards/3f28ee20-3255-4070-91ad-ba2e38545a77/tasks :: PARAMETERS: {} :: BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"c9dbcc4c-49bc-4ead-b554-d3bed49d0184","boardId":"3f28ee20-3255-4070-91ad-ba2e38545a77"}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: POST :: URL: /boards/3f28ee20-3255-4070-91ad-ba2e38545a77/tasks :: PARAMETERS: {} :: BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"c9dbcc4c-49bc-4ead-b554-d3bed49d0184","boardId":"3f28ee20-3255-4070-91ad-ba2e38545a77"}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/045dc626-485e-4a39-b23a-c2f6fb9d3dc7/tasks/de0b82e9-ecde-4679-aac6-91652aef5abe :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/045dc626-485e-4a39-b23a-c2f6fb9d3dc7/tasks/871e9d3b-5b5f-428a-822e-e577c14f0699 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/045dc626-485e-4a39-b23a-c2f6fb9d3dc7/tasks/0f7187c7-935f-46f7-a65a-1ac691c197ec :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/045dc626-485e-4a39-b23a-c2f6fb9d3dc7/tasks/7fe9d160-8fc9-490c-8449-9b37c081fc26 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/045dc626-485e-4a39-b23a-c2f6fb9d3dc7/tasks/3fcb5b6a-251d-47be-ae5c-78b59e56561f :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: DELETE :: URL: /users/c9dbcc4c-49bc-4ead-b554-d3bed49d0184 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: DELETE :: URL: /boards/5bab48de-7afd-4b77-a9ef-a4f503a88098 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/3f28ee20-3255-4070-91ad-ba2e38545a77/tasks/7d316d91-b74d-438c-b259-c95ebb65ba14 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: GET :: URL: /boards/3f28ee20-3255-4070-91ad-ba2e38545a77/tasks/bab247bb-f6c6-4d61-a211-11b85dc3a33a :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: DELETE :: URL: /boards/3f28ee20-3255-4070-91ad-ba2e38545a77/tasks/7d316d91-b74d-438c-b259-c95ebb65ba14 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: DELETE :: URL: /boards/3f28ee20-3255-4070-91ad-ba2e38545a77/tasks/bab247bb-f6c6-4d61-a211-11b85dc3a33a :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:09:32 +03:00] :: METHOD: DELETE :: URL: /boards/3f28ee20-3255-4070-91ad-ba2e38545a77 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-18 19:10:46 +03:00] :: METHOD: GET :: URL: /users?user=admin&pass=admin :: PARAMETERS: {"user":"admin","pass":"admin"} :: BODY: {}

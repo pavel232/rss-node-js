@@ -1,8 +1,9 @@
 const router = require('express').Router({ mergeParams: true });
 const taskService = require('./task.service');
+const handlerWrapper = require('../../common/handlerWrapper');
 
 router.route('/').get(
-  wrapAsync(async (req, res) => {
+  handlerWrapper(async (req, res) => {
     const boardId = req.params.boardId;
     const tasks = await taskService.getAll(boardId);
     res.status(200).json(tasks);
@@ -10,7 +11,7 @@ router.route('/').get(
 );
 
 router.route('/:id').get(
-  wrapAsync(async (req, res) => {
+  handlerWrapper(async (req, res) => {
     const boardId = req.params.boardId;
     const task = await taskService.getTask(boardId, req.params.id);
     if (task) {
@@ -20,7 +21,7 @@ router.route('/:id').get(
 );
 
 router.route('/').post(
-  wrapAsync(async (req, res) => {
+  handlerWrapper(async (req, res) => {
     const boardId = req.params.boardId;
     const task = await taskService.postTask(boardId, req.body);
     res.status(200).json(task);
@@ -28,7 +29,7 @@ router.route('/').post(
 );
 
 router.route('/:id').put(
-  wrapAsync(async (req, res) => {
+  handlerWrapper(async (req, res) => {
     const boardId = req.params.boardId;
     const task = await taskService.putTask(boardId, req.params.id, req.body);
     if (task) {
@@ -38,7 +39,7 @@ router.route('/:id').put(
 );
 
 router.route('/:id').delete(
-  wrapAsync(async (req, res) => {
+  handlerWrapper(async (req, res) => {
     const boardId = req.params.boardId;
     const isDeleted = await taskService.deleteTask(boardId, req.params.id);
     if (isDeleted) {
@@ -46,9 +47,5 @@ router.route('/:id').delete(
     } else res.status(404).json({});
   })
 );
-
-function wrapAsync(callback) {
-  return callback;
-}
 
 module.exports = router;
