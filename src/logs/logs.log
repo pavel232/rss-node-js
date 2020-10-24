@@ -1,0 +1,331 @@
+info [2020-10-22 21:10:49 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:10:50 +03:00] :: Connected to DataBase successfully
+error [2020-10-22 21:10:53 +03:00] :: User.toResponse is not a function
+info [2020-10-22 21:14:17 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:14:17 +03:00] :: Connected to DataBase successfully
+error [2020-10-22 21:14:19 +03:00] :: User.toResponse is not a function
+info [2020-10-22 21:15:10 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:15:10 +03:00] :: Connected to DataBase successfully
+error [2020-10-22 21:15:13 +03:00] :: User.toResponse is not a function
+info [2020-10-22 21:20:52 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:20:52 +03:00] :: Connected to DataBase successfully
+error [2020-10-22 21:20:54 +03:00] :: User.toResponse is not a function
+info [2020-10-22 21:21:48 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:21:48 +03:00] :: Connected to DataBase successfully
+error [2020-10-22 21:21:51 +03:00] :: body is not defined
+info [2020-10-22 21:22:13 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:22:14 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 21:22:18 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:22:19 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 21:23:40 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:23:41 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 21:23:42 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:23:43 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 21:27:30 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:27:30 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 21:27:43 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"string","login":"string"}
+info [2020-10-22 21:28:25 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:28:26 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 21:32:11 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:32:12 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 21:32:17 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 21:32:24 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"string","login":"string"}
+info [2020-10-22 21:32:25 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"string","login":"string"}
+info [2020-10-22 21:32:28 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 21:33:13 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:33:13 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 21:33:25 +03:00] :: METHOD: GET :: URL: /users/78effba2-4183-4fdf-a874-5a42b702db95 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 21:33:31 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 21:33:45 +03:00] :: METHOD: GET :: URL: /users/ad7a62de-edba-4e2d-8d44-18a4d2faec19 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 21:33:51 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:33:51 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 21:33:55 +03:00] :: METHOD: GET :: URL: /users/ad7a62de-edba-4e2d-8d44-18a4d2faec19 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 21:34:21 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:34:22 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 21:34:23 +03:00] :: METHOD: GET :: URL: /users/ad7a62de-edba-4e2d-8d44-18a4d2faec19 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 21:38:26 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:38:27 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 21:38:31 +03:00] :: METHOD: GET :: URL: /users/ad7a62de-edba-4e2d-8d44-18a4d2faec19 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 21:38:46 +03:00] :: METHOD: PUT :: URL: /users/ad7a62de-edba-4e2d-8d44-18a4d2faec19 :: PARAMETERS: {} :: BODY: {"name":"23424","login":"3243412","password":"12412432"}
+info [2020-10-22 21:43:49 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:43:50 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 21:43:55 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"string","login":"string"}
+info [2020-10-22 21:44:35 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"2345234","login":"234352"}
+info [2020-10-22 21:45:16 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:45:16 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 21:45:20 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"2345234","login":"234352"}
+info [2020-10-22 21:46:50 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 21:51:12 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:51:12 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 21:51:20 +03:00] :: METHOD: PUT :: URL: /users/ad7a62de-edba-4e2d-8d44-18a4d2faec19 :: PARAMETERS: {} :: BODY: {"name":"23424","login":"3243412","password":"12412432"}
+info [2020-10-22 21:51:29 +03:00] :: METHOD: PUT :: URL: /users/ad7a62de-edba-4e2d-8d44-18a4d2faec19 :: PARAMETERS: {} :: BODY: {"name":"23424","login":"3243412","password":"12412432"}
+info [2020-10-22 21:52:55 +03:00] :: METHOD: PUT :: URL: /users/ad7a62de-edba-4e2d-8d44-18a4d2faec19 :: PARAMETERS: {} :: BODY: {"name":"a","login":"a","password":"a"}
+info [2020-10-22 21:58:59 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 21:59:00 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:08:56 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:08:56 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:09:10 +03:00] :: METHOD: DELETE :: URL: /users/ad7a62de-edba-4e2d-8d44-18a4d2faec19 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:09:27 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:09:27 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:09:31 +03:00] :: METHOD: DELETE :: URL: /users/ad7a62de-edba-4e2d-8d44-18a4d2faec19 :: PARAMETERS: {} :: BODY: {}
+error [2020-10-22 22:09:31 +03:00] :: Cannot read property 'tasks' of undefined
+info [2020-10-22 22:10:31 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:10:32 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:10:35 +03:00] :: METHOD: DELETE :: URL: /users/ad7a62de-edba-4e2d-8d44-18a4d2faec19 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:10:52 +03:00] :: METHOD: GET :: URL: /users/ad7a62de-edba-4e2d-8d44-18a4d2faec19 :: PARAMETERS: {} :: BODY: {}
+error [2020-10-22 22:10:52 +03:00] :: CODE: 404 :: MESSAGE: User with id ad7a62de-edba-4e2d-8d44-18a4d2faec19 not found
+info [2020-10-22 22:11:15 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:11:28 +03:00] :: METHOD: DELETE :: URL: /users/78effba2-4183-4fdf-a874-5a42b702db95 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:12:14 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:12:15 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:12:26 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:12:35 +03:00] :: METHOD: DELETE :: URL: /users/b0c5f4cc-5e21-452b-828b-1d74b5312ec6 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:13:34 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:13:35 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:13:39 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:13:40 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:13:44 +03:00] :: METHOD: DELETE :: URL: /users/b0c5f4cc-5e21-452b-828b-1d74b5312ec6 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:13:52 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:14:01 +03:00] :: METHOD: DELETE :: URL: /users/142b9619-c0e2-467e-be58-361dc592d156 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:15:26 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:15:27 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:15:59 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:15:59 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:16:06 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:16:14 +03:00] :: METHOD: DELETE :: URL: /users/ef7e9b7b-76e1-407f-9923-10cf4b91f3e4 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:16:22 +03:00] :: METHOD: DELETE :: URL: /users/ef7e9b7b-76e1-407f-9923-10cf4b91f3e4 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:16:23 +03:00] :: METHOD: DELETE :: URL: /users/ef7e9b7b-76e1-407f-9923-10cf4b91f3e4 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:16:23 +03:00] :: METHOD: DELETE :: URL: /users/ef7e9b7b-76e1-407f-9923-10cf4b91f3e4 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:16:23 +03:00] :: METHOD: DELETE :: URL: /users/ef7e9b7b-76e1-407f-9923-10cf4b91f3e4 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:16:23 +03:00] :: METHOD: DELETE :: URL: /users/ef7e9b7b-76e1-407f-9923-10cf4b91f3e4 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:16:23 +03:00] :: METHOD: DELETE :: URL: /users/ef7e9b7b-76e1-407f-9923-10cf4b91f3e4 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:16:24 +03:00] :: METHOD: DELETE :: URL: /users/ef7e9b7b-76e1-407f-9923-10cf4b91f3e4 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:19:24 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:19:25 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:19:28 +03:00] :: METHOD: DELETE :: URL: /users/ef7e9b7b-76e1-407f-9923-10cf4b91f3e4 :: PARAMETERS: {} :: BODY: {}
+error [2020-10-22 22:19:28 +03:00] :: CODE: 404 :: MESSAGE: User with id ef7e9b7b-76e1-407f-9923-10cf4b91f3e4 not found
+info [2020-10-22 22:20:55 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:21:25 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:21:26 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:24:46 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:24:47 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:25:08 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:25:08 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:26:50 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+error [2020-10-22 22:27:20 +03:00] :: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+info [2020-10-22 22:33:11 +03:00] :: App is running on http://localhost:4000
+error [2020-10-22 22:33:11 +03:00] :: serverError is not a constructor
+info [2020-10-22 22:33:54 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:33:55 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:34:08 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+error [2020-10-22 22:34:38 +03:00] :: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+info [2020-10-22 22:36:20 +03:00] :: App is running on http://localhost:4000
+error [2020-10-22 22:36:20 +03:00] :: uncaughtException :: serverError is not a constructor
+info [2020-10-22 22:36:28 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:36:28 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:36:54 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+error [2020-10-22 22:37:24 +03:00] :: undefined :: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+info [2020-10-22 22:39:53 +03:00] :: App is running on http://localhost:4000
+error [2020-10-22 22:39:53 +03:00] :: Uncaught Exception :: serverError is not a constructor
+info [2020-10-22 22:40:01 +03:00] :: App is running on http://localhost:4000
+error [2020-10-22 22:40:01 +03:00] :: TYPE: Uncaught Exception :: serverError is not a constructor
+info [2020-10-22 22:40:15 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:40:15 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:40:35 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:40:36 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:40:42 +03:00] :: App is running on http://localhost:4000
+error [2020-10-22 22:40:42 +03:00] :: TYPE: Uncaught Exception :: MESSAGE: serverError is not a constructor
+info [2020-10-22 22:41:20 +03:00] :: App is running on http://localhost:4000
+error [2020-10-22 22:41:20 +03:00] :: TYPE: Uncaught Exception :: MESSAGE: serverError is not a constructor
+info [2020-10-22 22:41:22 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:41:23 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:41:31 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+error [2020-10-22 22:42:01 +03:00] :: TYPE: Express App Error :: MESSAGE: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+info [2020-10-22 22:43:16 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:43:17 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:43:20 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:43:58 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:43:59 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:44:19 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+error [2020-10-22 22:44:49 +03:00] :: TYPE: Express App Error :: MESSAGE: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+info [2020-10-22 22:46:20 +03:00] :: App is running on http://localhost:4000
+error [2020-10-22 22:46:20 +03:00] :: TYPE: Uncaught Exception :: MESSAGE: serverError is not a constructor
+info [2020-10-22 22:49:07 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:49:08 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:49:16 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+error [2020-10-22 22:49:46 +03:00] :: CODE: 502 :: MESSAGE: Bad Gateway
+info [2020-10-22 22:51:05 +03:00] :: App is running on http://localhost:4000
+error [2020-10-22 22:51:05 +03:00] :: TYPE: Uncaught Exception :: MESSAGE: serverError is not a constructor
+info [2020-10-22 22:51:20 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:51:21 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:53:28 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:53:28 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:53:43 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 22:54:48 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 22:54:49 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 22:55:01 +03:00] :: METHOD: PUT :: URL: /users/b2cefa64-9cb0-4fa2-a106-a3eff584a63e :: PARAMETERS: {} :: BODY: {"name":"a","login":"a","password":"a"}
+info [2020-10-22 22:55:10 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 23:00:52 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:00:53 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:01:00 +03:00] :: METHOD: PUT :: URL: /users/b2cefa64-9cb0-4fa2-a106-a3eff584a63e :: PARAMETERS: {} :: BODY: {"name":"a","login":"a","password":"a"}
+info [2020-10-22 23:01:16 +03:00] :: METHOD: PUT :: URL: /users/b2cefa64-9cb0-4fa2-a106-a3eff584a63e :: PARAMETERS: {} :: BODY: {"name":"a","login":"a","password":"a"}
+info [2020-10-22 23:01:39 +03:00] :: METHOD: PUT :: URL: /users/b2cefa64-9cb0-4fa2-a106-a3eff584a63e :: PARAMETERS: {} :: BODY: {"name":"123a","login":"13a","password":"13a"}
+info [2020-10-22 23:02:38 +03:00] :: METHOD: PUT :: URL: /users/%601212 :: PARAMETERS: {} :: BODY: {"name":"123a","login":"13a","password":"13a"}
+info [2020-10-22 23:03:40 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:03:41 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:03:45 +03:00] :: METHOD: PUT :: URL: /users/%601212 :: PARAMETERS: {} :: BODY: {"name":"123a","login":"13a","password":"13a"}
+info [2020-10-22 23:04:22 +03:00] :: METHOD: PUT :: URL: /users/b2cefa64-9cb0-4fa2-a106-a3eff584a63e :: PARAMETERS: {} :: BODY: {"name":"123a","login":"13a","password":"13a"}
+info [2020-10-22 23:04:54 +03:00] :: METHOD: PUT :: URL: /users/b2cefa64-9cb0-4fa2-a106-a3eff584a63e :: PARAMETERS: {} :: BODY: {"name":"23423532","login":"23523retgdf","password":"23tregsd"}
+info [2020-10-22 23:05:15 +03:00] :: METHOD: PUT :: URL: /users/b2cefa642349cb0-4fa2-a106-a3eff584a63e :: PARAMETERS: {} :: BODY: {"name":"23423532","login":"23523retgdf","password":"23tregsd"}
+info [2020-10-22 23:05:27 +03:00] :: METHOD: PUT :: URL: /users/12 :: PARAMETERS: {} :: BODY: {"name":"23423532","login":"23523retgdf","password":"23tregsd"}
+info [2020-10-22 23:05:55 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:05:55 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:05:56 +03:00] :: METHOD: PUT :: URL: /users/12 :: PARAMETERS: {} :: BODY: {"name":"23423532","login":"23523retgdf","password":"23tregsd"}
+info [2020-10-22 23:06:17 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:06:18 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:06:19 +03:00] :: METHOD: PUT :: URL: /users/12 :: PARAMETERS: {} :: BODY: {"name":"23423532","login":"23523retgdf","password":"23tregsd"}
+info [2020-10-22 23:07:50 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:07:50 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:07:52 +03:00] :: METHOD: PUT :: URL: /users/12 :: PARAMETERS: {} :: BODY: {"name":"23423532","login":"23523retgdf","password":"23tregsd"}
+info [2020-10-22 23:08:56 +03:00] :: METHOD: PUT :: URL: /users/b2cefa64-9cb0-4fa2-a106-a3eff584a63e :: PARAMETERS: {} :: BODY: {"name":"23423532","login":"23523retgdf","password":"23tregsd"}
+info [2020-10-22 23:09:29 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:09:29 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:10:14 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:10:14 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:10:18 +03:00] :: METHOD: PUT :: URL: /users/b2cefa64-9cb0-4fa2-a106-a3eff584a63e :: PARAMETERS: {} :: BODY: {"name":"23423532","login":"23523retgdf","password":"23tregsd"}
+info [2020-10-22 23:10:20 +03:00] :: METHOD: PUT :: URL: /users/b2cefa64-9cb0-4fa2-a106-a3eff584a63e :: PARAMETERS: {} :: BODY: {"name":"23423532","login":"23523retgdf","password":"23tregsd"}
+info [2020-10-22 23:11:03 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:11:04 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:11:05 +03:00] :: METHOD: PUT :: URL: /users/b2cefa64-9cb0-4fa2-a106-a3eff584a63e :: PARAMETERS: {} :: BODY: {"name":"23423532","login":"23523retgdf","password":"23tregsd"}
+info [2020-10-22 23:11:14 +03:00] :: METHOD: PUT :: URL: /users/123 :: PARAMETERS: {} :: BODY: {"name":"23423532","login":"23523retgdf","password":"23tregsd"}
+info [2020-10-22 23:11:33 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:11:33 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:11:38 +03:00] :: METHOD: PUT :: URL: /users/123 :: PARAMETERS: {} :: BODY: {"name":"23423532","login":"23523retgdf","password":"23tregsd"}
+error [2020-10-22 23:11:38 +03:00] :: CODE: 404 :: MESSAGE: User with id 123 not found
+info [2020-10-22 23:17:01 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:17:02 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:17:07 +03:00] :: METHOD: PUT :: URL: /users/123 :: PARAMETERS: {} :: BODY: {"name":"23423532","login":"23523retgdf","password":"23tregsd"}
+info [2020-10-22 23:17:30 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:17:31 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:17:32 +03:00] :: METHOD: PUT :: URL: /users/123 :: PARAMETERS: {} :: BODY: {"name":"23423532","login":"23523retgdf","password":"23tregsd"}
+error [2020-10-22 23:17:32 +03:00] :: CODE: 404 :: MESSAGE: User with id 123 not found
+info [2020-10-22 23:18:39 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:18:39 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:18:43 +03:00] :: METHOD: DELETE :: URL: /users/ef7e9b7b-76e1-407f-9923-10cf4b91f3e4 :: PARAMETERS: {} :: BODY: {}
+error [2020-10-22 23:18:43 +03:00] :: CODE: 404 :: MESSAGE: User with id ef7e9b7b-76e1-407f-9923-10cf4b91f3e4 not found
+info [2020-10-22 23:19:00 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:19:01 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:19:17 +03:00] :: METHOD: DELETE :: URL: /users/b2cefa64-9cb0-4fa2-a106-a3eff584a63e :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 23:21:44 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:21:45 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:21:53 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"2345234","login":"234352"}
+info [2020-10-22 23:22:21 +03:00] :: METHOD: PUT :: URL: /users/123 :: PARAMETERS: {} :: BODY: {"name":"23423532","login":"23523retgdf","password":"23tregsd"}
+error [2020-10-22 23:22:21 +03:00] :: CODE: 400 :: MESSAGE: User with id 123 not found
+info [2020-10-22 23:22:34 +03:00] :: METHOD: PUT :: URL: /users/4d55d288-c5bc-4acc-9952-ceafbe4d9f87 :: PARAMETERS: {} :: BODY: {"name":"23423532","login":"23523retgdf","password":"23tregsd"}
+info [2020-10-22 23:22:40 +03:00] :: METHOD: DELETE :: URL: /users/b2cefa64-9cb0-4fa2-a106-a3eff584a63e :: PARAMETERS: {} :: BODY: {}
+error [2020-10-22 23:22:40 +03:00] :: CODE: 404 :: MESSAGE: User with id b2cefa64-9cb0-4fa2-a106-a3eff584a63e not found
+info [2020-10-22 23:23:04 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:23:05 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:23:09 +03:00] :: METHOD: DELETE :: URL: /users/b2cefa64-9cb0-4fa2-a106-a3eff584a63e :: PARAMETERS: {} :: BODY: {}
+error [2020-10-22 23:23:09 +03:00] :: CODE: 404 :: MESSAGE: User with id b2cefa64-9cb0-4fa2-a106-a3eff584a63e not found
+info [2020-10-22 23:23:21 +03:00] :: METHOD: DELETE :: URL: /users/4d55d288-c5bc-4acc-9952-ceafbe4d9f87 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 23:23:39 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:23:40 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:23:47 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"2345234","login":"234352"}
+info [2020-10-22 23:23:55 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 23:24:06 +03:00] :: METHOD: DELETE :: URL: /users/dc014804-5c16-470e-844f-7ad1bc5ffba3 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 23:24:59 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:24:59 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:25:23 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"2345234","login":"234352"}
+info [2020-10-22 23:25:51 +03:00] :: METHOD: DELETE :: URL: /users/a02511fb-fa9f-472a-9b05-7fcbca85fa49 :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 23:26:37 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:26:38 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:27:19 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:27:20 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:27:51 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:27:51 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:32:50 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:32:50 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:34:47 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:34:47 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:34:59 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:35:00 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:36:45 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:36:46 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:36:58 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:36:58 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:38:23 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:38:24 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:39:01 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:39:01 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:39:47 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:39:48 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:40:05 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:40:05 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:41:58 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:41:59 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:42:11 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"string","columns":[{"title":"string","order":0}]}
+info [2020-10-22 23:42:29 +03:00] :: METHOD: GET :: URL: /boards :: PARAMETERS: {} :: BODY: {}
+info [2020-10-22 23:43:25 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:43:25 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:43:34 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:43:35 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:46:09 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:46:09 +03:00] :: Connected to DataBase successfully
+info [2020-10-22 23:46:47 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:49:29 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:49:51 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:53:22 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:55:13 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:55:57 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:56:03 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:56:37 +03:00] :: App is running on http://localhost:4000
+info [2020-10-22 23:59:05 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:03:05 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:03:11 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:04:12 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:04:39 +03:00] :: METHOD: GET :: URL: /boards/123/tasks :: PARAMETERS: {} :: BODY: {}
+info [2020-10-23 00:06:43 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:07:20 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:08:48 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:12:00 +03:00] :: METHOD: GET :: URL: /boards/123/tasks :: PARAMETERS: {} :: BODY: {}
+info [2020-10-23 00:12:36 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:12:55 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:14:01 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:17:35 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:19:01 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:19:16 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:19:33 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:19:55 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-23 00:19:55 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-23 00:19:55 +03:00] :: METHOD: GET :: URL: /users :: PARAMETERS: {} :: BODY: {}
+info [2020-10-23 00:20:00 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"TEST_USER","login":"test_user"}
+info [2020-10-23 00:20:00 +03:00] :: METHOD: GET :: URL: /boards/undefined/tasks :: PARAMETERS: {} :: BODY: {}
+info [2020-10-23 00:20:00 +03:00] :: METHOD: GET :: URL: /boards :: PARAMETERS: {} :: BODY: {}
+info [2020-10-23 00:20:05 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"TEST_USER","login":"test_user"}
+info [2020-10-23 00:20:05 +03:00] :: METHOD: GET :: URL: /boards/undefined/tasks :: PARAMETERS: {} :: BODY: {}
+info [2020-10-23 00:20:05 +03:00] :: METHOD: GET :: URL: /boards :: PARAMETERS: {} :: BODY: {}
+info [2020-10-23 00:20:10 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"TEST_USER","login":"test_user"}
+info [2020-10-23 00:20:10 +03:00] :: METHOD: POST :: URL: /boards/undefined/tasks :: PARAMETERS: {} :: BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info [2020-10-23 00:20:10 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-23 00:20:15 +03:00] :: METHOD: POST :: URL: /boards/undefined/tasks :: PARAMETERS: {} :: BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info [2020-10-23 00:20:15 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"TEST_USER","login":"test_user"}
+info [2020-10-23 00:20:15 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-23 00:20:20 +03:00] :: METHOD: GET :: URL: /boards/undefined/tasks/undefined :: PARAMETERS: {} :: BODY: {}
+info [2020-10-23 00:20:20 +03:00] :: METHOD: POST :: URL: /users :: PARAMETERS: {} :: BODY: {"name":"TEST_USER","login":"test_user"}
+info [2020-10-23 00:20:20 +03:00] :: METHOD: POST :: URL: /boards :: PARAMETERS: {} :: BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info [2020-10-23 00:20:22 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:20:40 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:20:42 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:20:49 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:20:50 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:23:28 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:23:33 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:24:01 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:24:07 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:24:42 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:24:59 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:25:25 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:25:59 +03:00] :: App is running on http://localhost:4000
+info [2020-10-23 00:26:34 +03:00] :: App is running on http://localhost:4000
+info [2020-10-24 11:34:03 +03:00] :: App is running on http://localhost:4000

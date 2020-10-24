@@ -1,7 +1,8 @@
 const router = require('express').Router();
 const boardsService = require('./board.service');
 const taskService = require('../tasks/task.service');
-const handlerWrapper = require('../../common/handlerWrapper');
+const handlerWrapper = require('../../common/handler-wrapper');
+const { serverError } = require('../../common/logs-handler/index');
 
 router.route('/').get(
   handlerWrapper(async (req, res) => {
@@ -15,7 +16,9 @@ router.route('/:id').get(
     const board = await boardsService.getBoard(req.params.id);
     if (board) {
       res.status(200).json(board);
-    } else res.status(404).json({});
+    } else {
+      throw new serverError(`Board with id ${req.params.id} not found`, 404);
+    }
   })
 );
 
@@ -31,17 +34,24 @@ router.route('/:id').put(
     const board = await boardsService.putBoard(req.params.id, req.body);
     if (board) {
       res.status(200).json(board);
-    } else res.status(404).json({});
+    } else {
+      throw new serverError(`Board with id ${req.params.id} not found`, 400);
+    }
   })
 );
 
 router.route('/:id').delete(
   handlerWrapper(async (req, res) => {
-    const isDeleted = await boardsService.deleteBoard(req.params.id);
-    if (isDeleted) {
+    const deletedBoard = await boardsService.deleteBoard(req.params.id);
+    if (deletedBoard) {
       taskService.deleteAllTasksWithBoard(req.params.id);
-      res.status(204).json({});
-    } else res.status(404).json({});
+      res.status(204).json({
+        code: 204,
+        message: `Board with id ${req.params.id} has been deleted`
+      });
+    } else {
+      throw new serverError(`Board with id ${req.params.id} not found`, 404);
+    }
   })
 );
 

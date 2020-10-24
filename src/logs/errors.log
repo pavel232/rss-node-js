@@ -1,0 +1,28 @@
+error [2020-10-22 21:10:53 +03:00] :: User.toResponse is not a function
+error [2020-10-22 21:14:19 +03:00] :: User.toResponse is not a function
+error [2020-10-22 21:15:13 +03:00] :: User.toResponse is not a function
+error [2020-10-22 21:20:54 +03:00] :: User.toResponse is not a function
+error [2020-10-22 21:21:51 +03:00] :: body is not defined
+error [2020-10-22 22:09:31 +03:00] :: Cannot read property 'tasks' of undefined
+error [2020-10-22 22:10:52 +03:00] :: CODE: 404 :: MESSAGE: User with id ad7a62de-edba-4e2d-8d44-18a4d2faec19 not found
+error [2020-10-22 22:19:28 +03:00] :: CODE: 404 :: MESSAGE: User with id ef7e9b7b-76e1-407f-9923-10cf4b91f3e4 not found
+error [2020-10-22 22:27:20 +03:00] :: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+error [2020-10-22 22:33:11 +03:00] :: serverError is not a constructor
+error [2020-10-22 22:34:38 +03:00] :: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+error [2020-10-22 22:36:20 +03:00] :: uncaughtException :: serverError is not a constructor
+error [2020-10-22 22:37:24 +03:00] :: undefined :: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+error [2020-10-22 22:39:53 +03:00] :: Uncaught Exception :: serverError is not a constructor
+error [2020-10-22 22:40:01 +03:00] :: TYPE: Uncaught Exception :: serverError is not a constructor
+error [2020-10-22 22:40:42 +03:00] :: TYPE: Uncaught Exception :: MESSAGE: serverError is not a constructor
+error [2020-10-22 22:41:20 +03:00] :: TYPE: Uncaught Exception :: MESSAGE: serverError is not a constructor
+error [2020-10-22 22:42:01 +03:00] :: TYPE: Express App Error :: MESSAGE: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+error [2020-10-22 22:44:49 +03:00] :: TYPE: Express App Error :: MESSAGE: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+error [2020-10-22 22:46:20 +03:00] :: TYPE: Uncaught Exception :: MESSAGE: serverError is not a constructor
+error [2020-10-22 22:49:46 +03:00] :: CODE: 502 :: MESSAGE: Bad Gateway
+error [2020-10-22 22:51:05 +03:00] :: TYPE: Uncaught Exception :: MESSAGE: serverError is not a constructor
+error [2020-10-22 23:11:38 +03:00] :: CODE: 404 :: MESSAGE: User with id 123 not found
+error [2020-10-22 23:17:32 +03:00] :: CODE: 404 :: MESSAGE: User with id 123 not found
+error [2020-10-22 23:18:43 +03:00] :: CODE: 404 :: MESSAGE: User with id ef7e9b7b-76e1-407f-9923-10cf4b91f3e4 not found
+error [2020-10-22 23:22:21 +03:00] :: CODE: 400 :: MESSAGE: User with id 123 not found
+error [2020-10-22 23:22:40 +03:00] :: CODE: 404 :: MESSAGE: User with id b2cefa64-9cb0-4fa2-a106-a3eff584a63e not found
+error [2020-10-22 23:23:09 +03:00] :: CODE: 404 :: MESSAGE: User with id b2cefa64-9cb0-4fa2-a106-a3eff584a63e not found

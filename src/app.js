@@ -2,7 +2,7 @@ const express = require('express');
 const swaggerUI = require('swagger-ui-express');
 const path = require('path');
 const YAML = require('yamljs');
-const { writeInfoLog, writeErrorLog } = require('./common/winstonConfig');
+const { writeInfoLog, writeErrorLog } = require('./common/logs-handler/index');
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
@@ -23,7 +23,7 @@ app.use('/', (req, res, next) => {
 });
 
 app.use((req, res, next) => {
-  writeInfoLog(req);
+  writeInfoLog('', req);
   next();
 });
 
@@ -31,24 +31,28 @@ app.use('/users', userRouter);
 app.use('/boards', boardRouter);
 boardRouter.use('/:boardId/tasks', taskRouter);
 
+const exit = process.exit;
+
 app.use((err, req, res, next) => {
   if (err) {
-    writeErrorLog(err);
-    res.status(500).send({
-      code: 500,
-      error: 'Internal Server Error'
+    writeErrorLog(err, 'Express App Error');
+    res.status(err.code).send({
+      code: err.code,
+      message: err.message
     });
   }
   next();
 });
 
 process.on('uncaughtException', err => {
-  writeErrorLog(err);
+  writeErrorLog(err, 'Uncaught Exception');
+  exit(1);
 });
 // throw Error('uncaughtException: Oops!');
 
 process.on('unhandledRejection', err => {
-  writeErrorLog(err);
+  writeErrorLog(err, 'Unhandled Rejection');
+  exit(2);
 });
 // Promise.reject(Error('unhandledRejection: Oops!'));
 

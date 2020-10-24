@@ -1,6 +1,7 @@
 const router = require('express').Router({ mergeParams: true });
 const taskService = require('./task.service');
-const handlerWrapper = require('../../common/handlerWrapper');
+const handlerWrapper = require('../../common/handler-wrapper');
+const { serverError } = require('../../common/logs-handler/index');
 
 router.route('/').get(
   handlerWrapper(async (req, res) => {
@@ -16,7 +17,9 @@ router.route('/:id').get(
     const task = await taskService.getTask(boardId, req.params.id);
     if (task) {
       res.status(200).json(task);
-    } else res.status(404).json({});
+    } else {
+      throw new serverError(`Task with id ${req.params.id} not found`, 404);
+    }
   })
 );
 
@@ -34,7 +37,9 @@ router.route('/:id').put(
     const task = await taskService.putTask(boardId, req.params.id, req.body);
     if (task) {
       res.status(200).json(task);
-    } else res.status(404).json({});
+    } else {
+      throw new serverError(`Task with id ${req.params.id} not found`, 400);
+    }
   })
 );
 
@@ -44,7 +49,9 @@ router.route('/:id').delete(
     const isDeleted = await taskService.deleteTask(boardId, req.params.id);
     if (isDeleted) {
       res.status(204).json([]);
-    } else res.status(404).json({});
+    } else {
+      throw new serverError(`Task with id ${req.params.id} not found`, 404);
+    }
   })
 );
 
