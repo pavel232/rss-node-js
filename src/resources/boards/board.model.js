@@ -15,12 +15,17 @@ const boardSchema = new mongoose.Schema(
           default: uuid
         },
         title: String,
-        order: String
+        order: Number
       }
     ]
   },
   { versionKey: false }
 );
+
+boardSchema.statics.toResponse = board => {
+  const { id, title, columns } = board;
+  return { id, title, columns };
+};
 
 const Board = mongoose.model('Board', boardSchema);
 

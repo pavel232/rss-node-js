@@ -8,35 +8,20 @@ const taskSchema = new mongoose.Schema(
       default: uuid
     },
     title: String,
-    order: String,
+    order: Number,
     description: String,
     userId: String,
-    BoardId: String,
+    boardId: String,
     columnId: String
   },
   { versionKey: false }
 );
 
-const Task = mongoose.model('Task', taskSchema);
+taskSchema.statics.toResponse = task => {
+  const { id, title, order, description, userId, boardId, columnId } = task;
+  return { id, title, order, description, userId, boardId, columnId };
+};
 
-// class Task {
-//   constructor({
-//     id = uuid(),
-//     title = 'New task',
-//     order = 0,
-//     description = 'Task description',
-//     userId = 'id',
-//     boardId = 'id',
-//     columnId = 'id'
-//   } = {}) {
-//     this.id = id;
-//     this.title = title;
-//     this.order = order;
-//     this.description = description;
-//     this.userId = userId;
-//     this.boardId = boardId;
-//     this.columnId = columnId;
-//   }
-// }
+const Task = mongoose.model('Task', taskSchema);
 
 module.exports = Task;

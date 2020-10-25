@@ -1,23 +1,13 @@
-// const Board = require('./board.model');
+const Board = require('./board.model');
 
-// const getAll = async () => {
-//   return await Board.find({});
-// };
+const getAll = async () => await Board.find({});
 
-// const getBoard = async id => {
-//   return await Board.findById(id);
-// };
+const getBoard = async id => await Board.findById(id);
 
-// const postBoard = async board => {
-//   return Board.create(board);
-// };
+const postBoard = async board => Board.create(board);
 
-// const putBoard = async (id, board) => {
-//   return await Board.findByIdAndUpdate(id, board);
-// };
+const putBoard = async (id, board) => await Board.findByIdAndUpdate(id, board);
 
-// const deleteBoard = async id => {
-//   return await Board.findByIdAndDelete(id);
-// };
+const deleteBoard = async id => await Board.findByIdAndDelete(id);
 
-// module.exports = { getAll, getBoard, postBoard, putBoard, deleteBoard };
+module.exports = { getAll, getBoard, postBoard, putBoard, deleteBoard };
