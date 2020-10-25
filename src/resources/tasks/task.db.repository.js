@@ -22,7 +22,7 @@ const deleteAllTasksWithBoard = async boardId => {
 };
 
 const deleteAssignee = async userId => {
-  return await Task.updateMany({ userId }, { userId: null });
+  await Task.updateMany({ userId }, { userId: null });
 };
 
 module.exports = {

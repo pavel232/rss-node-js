@@ -45,7 +45,7 @@ router.route('/:id').delete(
   handlerWrapper(async (req, res) => {
     const deletedBoard = await boardsService.deleteBoard(req.params.id);
     if (deletedBoard) {
-      taskService.deleteAllTasksWithBoard(req.params.id);
+      await taskService.deleteAllTasksWithBoard(req.params.id);
       res.status(204).json({
         code: 204,
         message: `Board with id ${req.params.id} has been deleted`
