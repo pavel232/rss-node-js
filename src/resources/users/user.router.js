@@ -2,7 +2,8 @@ const router = require('express').Router();
 const User = require('./user.model');
 const usersService = require('./user.service');
 const taskService = require('../tasks/task.service');
-const handlerWrapper = require('../../common/handlerWrapper');
+const handlerWrapper = require('../../common/handler-wrapper');
+const { serverError } = require('../../common/logs-handler/index');
 
 router.route('/').get(
   handlerWrapper(async (req, res) => {
@@ -16,7 +17,9 @@ router.route('/:id').get(
     const user = await usersService.getUser(req.params.id);
     if (user) {
       res.status(200).json(User.toResponse(user));
-    } else res.status(400).json({});
+    } else {
+      throw new serverError(`User with id ${req.params.id} not found`, 404);
+    }
   })
 );
 
@@ -32,17 +35,24 @@ router.route('/:id').put(
     const user = await usersService.putUser(req.params.id, req.body);
     if (user) {
       res.status(200).json(User.toResponse(user));
-    } else res.status(400).json({});
+    } else {
+      throw new serverError(`User with id ${req.params.id} not found`, 400);
+    }
   })
 );
 
 router.route('/:id').delete(
   handlerWrapper(async (req, res) => {
-    const isDeleted = await usersService.deleteUser(req.params.id);
-    if (isDeleted) {
+    const deletedUser = await usersService.deleteUser(req.params.id);
+    if (deletedUser) {
       taskService.deleteAssignee(req.params.id);
-      res.status(204).json({});
-    } else res.status(404).json({});
+      res.status(204).json({
+        code: 204,
+        message: `User with id ${req.params.id} has been deleted`
+      });
+    } else {
+      throw new serverError(`User with id ${req.params.id} not found`, 404);
+    }
   })
 );
 
