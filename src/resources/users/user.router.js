@@ -45,7 +45,7 @@ router.route('/:id').delete(
   handlerWrapper(async (req, res) => {
     const deletedUser = await usersService.deleteUser(req.params.id);
     if (deletedUser) {
-      taskService.deleteAssignee(req.params.id);
+      await taskService.deleteAssignee(req.params.id);
       res.status(204).json({
         code: 204,
         message: `User with id ${req.params.id} has been deleted`
