@@ -3,7 +3,7 @@ const boardsService = require('./board.service');
 const Board = require('./board.model');
 const taskService = require('../tasks/task.service');
 const handlerWrapper = require('../../common/handler-wrapper');
-const { serverError } = require('../../common/logs-handler/index');
+const { ServerError } = require('../../common/logs-handler/index');
 
 router.route('/').get(
   handlerWrapper(async (req, res) => {
@@ -15,11 +15,11 @@ router.route('/').get(
 router.route('/:id').get(
   handlerWrapper(async (req, res) => {
     const board = await boardsService.getBoard(req.params.id);
-    if (board) {
-      res.status(200).json(Board.toResponse(board));
-    } else {
-      throw new serverError(`Board with id ${req.params.id} not found`, 404);
+    if (!board) {
+      throw new ServerError(404, `Board with id ${req.params.id} not found`);
     }
+
+    res.status(200).json(Board.toResponse(board));
   })
 );
 
@@ -33,26 +33,26 @@ router.route('/').post(
 router.route('/:id').put(
   handlerWrapper(async (req, res) => {
     const board = await boardsService.putBoard(req.params.id, req.body);
-    if (board) {
-      res.status(200).json(Board.toResponse(board));
-    } else {
-      throw new serverError(`Board with id ${req.params.id} not found`, 400);
+    if (!board) {
+      throw new ServerError(400, `Board with id ${req.params.id} not found`);
     }
+
+    res.status(200).json(Board.toResponse(board));
   })
 );
 
 router.route('/:id').delete(
   handlerWrapper(async (req, res) => {
-    const deletedBoard = await boardsService.deleteBoard(req.params.id);
-    if (deletedBoard) {
-      await taskService.deleteAllTasksWithBoard(req.params.id);
-      res.status(204).json({
-        code: 204,
-        message: `Board with id ${req.params.id} has been deleted`
-      });
-    } else {
-      throw new serverError(`Board with id ${req.params.id} not found`, 404);
+    const isDeleted = await boardsService.deleteBoard(req.params.id);
+    if (!isDeleted) {
+      throw new ServerError(404, `Board with id ${req.params.id} not found`);
     }
+
+    await taskService.deleteAllTasksWithBoard(req.params.id);
+    res.status(204).json({
+      code: 204,
+      message: `Board with id ${req.params.id} has been deleted`
+    });
   })
 );
 

@@ -8,7 +8,10 @@ const userSchema = new mongoose.Schema(
       default: uuid
     },
     name: String,
-    login: String,
+    login: {
+      type: String,
+      unique: true
+    },
     password: String
   },
   { versionKey: false }

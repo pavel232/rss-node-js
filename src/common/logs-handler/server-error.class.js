@@ -1,9 +1,10 @@
-class serverError extends Error {
-  constructor(message, code) {
+class ServerError extends Error {
+  constructor(code, responseMessage, internalMessage) {
     super();
-    this.message = message;
     this.code = code;
+    this.message = responseMessage;
+    this.internalMessage = internalMessage;
   }
 }
 
-module.exports = serverError;
+module.exports = ServerError;
