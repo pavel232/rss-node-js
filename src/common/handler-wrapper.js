@@ -1,9 +1,7 @@
-const handlerWrapper = callback => async (req, res, next) => {
+module.exports = callback => async (req, res, next) => {
   try {
-    return await callback(req, res);
+    return await callback(req, res, next);
   } catch (err) {
     return next(err);
   }
 };
-
-module.exports = handlerWrapper;

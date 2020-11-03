@@ -1,12 +1,13 @@
 const logger = require('./winston-config');
-const User = require('../../resources/users/user.model');
 
 function writeInfoLog(string, req) {
   if (req) {
     const method = req.method;
     const url = req.url;
     const query = req.query;
-    const body = url === '/users' ? User.toResponse(req.body) : req.body;
+    const body = req.body.password
+      ? { ...req.body, password: '*****' }
+      : req.body;
 
     logger.info(
       `METHOD: ${method} :: URL: ${url} :: PARAMETERS: ${JSON.stringify(
@@ -18,8 +19,14 @@ function writeInfoLog(string, req) {
 
 function writeErrorLog(err, str) {
   if (err.code) {
-    logger.error(`CODE: ${err.code} :: MESSAGE: ${err.message}`);
-  } else logger.error(`TYPE: ${str} :: MESSAGE: ${err.message}`);
+    logger.error(
+      `CODE: ${err.code} :: INTERNAL MESSAGE: ${err.internalMessage} :: MESSAGE: ${err.message}`
+    );
+  } else {
+    logger.error(
+      `TYPE: ${str} :: INTERNAL MESSAGE: ${err.internalMessage} :: MESSAGE: ${err.message}`
+    );
+  }
 }
 
 module.exports = { writeInfoLog, writeErrorLog };

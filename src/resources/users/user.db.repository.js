@@ -10,4 +10,13 @@ const putUser = async (id, user) => await User.findByIdAndUpdate(id, user);
 
 const deleteUser = async id => await User.findByIdAndDelete(id);
 
-module.exports = { getAll, getUser, postUser, putUser, deleteUser };
+const findUserLogin = async login => await User.findOne({ login });
+
+module.exports = {
+  getAll,
+  getUser,
+  postUser,
+  putUser,
+  deleteUser,
+  findUserLogin
+};
