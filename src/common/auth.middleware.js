@@ -3,7 +3,7 @@ const handlerWrapper = require('./handler-wrapper');
 const { PATH_WHITELIST } = require('./config');
 const { ServerError } = require('./logs-handler/index');
 
-module.exports = handlerWrapper(async (req, res, next) => {
+module.exports = handlerWrapper((req, res, next) => {
   const isNext = PATH_WHITELIST.includes(req.path);
   if (isNext) {
     return next();
@@ -25,7 +25,7 @@ module.exports = handlerWrapper(async (req, res, next) => {
     );
   }
   try {
-    await checkToken(token);
+    checkToken(token);
   } catch (err) {
     throw new ServerError(401, 'Access denied', err);
   }
