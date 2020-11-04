@@ -24,7 +24,7 @@ const signToken = async (login, password) => {
 
   const payload = { login, id: user._id };
 
-  return await createToken(payload);
+  return createToken(payload);
 };
 
 module.exports = {
