@@ -1,19 +1,10 @@
 const usersRepo = require('./user.db.repository');
-const { hashPassword } = require('../../common/hash');
 
 const getAll = () => usersRepo.getAll();
 
 const getUser = id => usersRepo.getUser(id);
 
-const postUser = async user => {
-  const hashPass = await hashPassword(user.password);
-  const newUser = {
-    ...user,
-    password: hashPass
-  };
-
-  return await usersRepo.postUser(newUser);
-};
+const postUser = user => usersRepo.postUser(user);
 
 const putUser = (id, user) => usersRepo.putUser(id, user);
 

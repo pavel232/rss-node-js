@@ -6,7 +6,8 @@ const getUser = async id => await User.findById(id);
 
 const postUser = async user => await User.create(user);
 
-const putUser = async (id, user) => await User.findByIdAndUpdate(id, user);
+const putUser = async (id, user) =>
+  await User.findByIdAndUpdate(id, user, { new: true });
 
 const deleteUser = async id => await User.findByIdAndDelete(id);
 
